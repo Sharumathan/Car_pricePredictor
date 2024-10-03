@@ -10,7 +10,7 @@ import joblib
 # Initialize the Flask app
 app = Flask(__name__)
 
-model = joblib.load('/Users/sharumathan/Desktop/Punda/EDITH_FDM/model_2.pkl')
+model = joblib.load('model_2.pkl')
 
 with open('scaler_2_category.pkl', 'rb') as scaler_file:
     scaler_f = pickle.load(scaler_file)
