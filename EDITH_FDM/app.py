@@ -40,7 +40,7 @@ accessory_weights = {
     'Leather Seats': 50
 }
 
-# Define the route for the homepage
+# Define the route for the homepage3
 @app.route('/')
 def home():
     return render_template('index.html', 
